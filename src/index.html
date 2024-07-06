@@ -1,27 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../src/css/output.css">
-</head>
-<body class="bg-cyan-500">    
-    
-    <header class="py-4 bg-white shadow-md">
-        <div class="container flex items-center justify-between px-4 mx-auto">
-            <img src="../src/logonako.png" alt="Logo Kafe Anda" class="w-10 h-10 mr-4">
-            
-            <nav>
-                <ul class="flex space-x-6">
-                    <li><a href="#" class="text-gray-600 hover:text-gray-800">Menu</a></li>
-                    <li><a href="#" class="text-gray-600 hover:text-gray-800">Tentang Kami</a></li>
-                    <li><a href="#" class="text-gray-600 hover:text-gray-800">Kontak</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Kopi Nako </title>
 
-    
-</body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/css/output.css" />
+  </head>
+  <body class="bg-gray-100">
+    <nav class="bg-white shadow-md">
+      <div class="container px-4 mx-auto">
+        <div class="flex items-center justify-between py-4">
+          <div>
+            <a href="#" class="text-xl font-bold">Kopi Nako</a>
+          </div>
+          <div>
+            <ul class="flex space-x-4">
+              <li>
+                <a href="#" class="text-gray-800 hover:text-gray-600"
+                  >Beranda</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-800 hover:text-gray-600">Menu</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-800 hover:text-gray-600"
+                  >Tentang Kami</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-800 hover:text-gray-600">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="flex items-center h-screen bg-center bg-cover bg-nako-hero backdrop-opacity-95"
+      style="
+        background-image: url('https://img.freepik.com/free-photo/roasted-coffee-beans-with-accessories_23-2148336700.jpg?ga=GA1.1.432371648.1719729419&semt=ais_user');
+      "
+    >
+      <div class="container px-4 mx-auto text-center text-white">
+        <h1 class="mb-4 text-4xl font-bold md:text-5xl lg:text-6xl">
+          Selamat Datang di Kopi Nako
+        </h1>
+        <p class="mb-6 text-lg md:text-xl lg:text-2xl">
+          Nikmati Kelezatan dalam Setiap Tegukan.
+        </p>
+      </div>
+    </section>
+
+    <section class="py-16 bg-white">
+      <div class="container px-4 mx-auto">
+        <h2 class="mb-8 text-3xl font-bold text-center">BEST SELLER</h2>
+        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5">
+          <div
+            class="overflow-hidden text-center bg-gray-100 rounded-lg shadow-md"
+          >
+            <img
+              src="https://keluyuran.com/wp-content/uploads/2023/03/Es-Kopi-Nako_.webp"
+              alt="Es Kopi Nako"
+              class="object-cover w-full h-64"
+            />
+            <div class="p-4">
+              <h3 class="mb-2 text-xl font-bold">Es Kopi Nako</h3>
+              <p class="text-gray-700">
+                Segelas kopi espresso spesial dari Kopi Nako yang dikombinasikan
+                dengan susu dan disajikan dengan tambahan es.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="overflow-hidden text-center bg-gray-100 rounded-lg shadow-md"
+          >
+            <img
+              src="https://keluyuran.com/wp-content/uploads/2023/03/Es-Kopi-Nako-Duren_.webp"
+              alt="Es Kopi Nako Duren"
+              class="object-cover w-full h-64"
+            />
+            <div class="p-4">
+              <h3 class="mb-2 text-xl font-bold">Es Kopi Nako Duren</h3>
+              <p class="text-gray-700">
+                Es Kopi Nako Duren merupakan menu Es Kopi Nako yang ditambahkan
+                dengan durian.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="overflow-hidden text-center bg-gray-100 rounded-lg shadow-md"
+          >
+            <img
+              src="https://keluyuran.com/wp-content/uploads/2023/03/Es-Kopi-Nusantara_.webp"
+              alt="Es Kopi Nusantara"
+              class="object-cover w-full h-64"
+            />
+            <div class="p-4">
+              <h3 class="mb-2 text-xl font-bold">Es Kopi Nusantara</h3>
+              <p class="text-gray-700">
+                Perpaduan kopi, susu, pandan, dan kelapa ini membuat menu Es
+                Kopi Nusantara menjadi salah satu menu favorit karena cita
+                rasanya yang unik dan menyegarkan.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="overflow-hidden text-center bg-gray-100 rounded-lg shadow-md"
+          >
+            <img
+              src="https://keluyuran.com/wp-content/uploads/2023/03/Affogato_.webp"
+              alt="Affogato"
+              class="object-cover w-full h-64"
+            />
+            <div class="p-4">
+              <h3 class="mb-2 text-xl font-bold">Affogato</h3>
+              <p class="text-gray-700">
+                Menu Affogato di Kopi Nako ini menyajikan dua scoop es krim
+                vanilla yang segar dengan espresso yang bisa kamu tuang di
+                atasnya.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="overflow-hidden text-center bg-gray-100 rounded-lg shadow-md"
+          >
+            <img
+              src="https://keluyuran.com/wp-content/uploads/2023/03/Kopi-Nako-Mini_.webp"
+              alt="Kopi Nako Mini"
+              class="object-cover w-full h-64"
+            />
+            <div class="p-4">
+              <h3 class="mb-2 text-xl font-bold">Kopi Nako Mini</h3>
+              <p class="text-gray-700">
+                Dalam sebotol kecil Kopi Nako Mini ini, kamu bisa menikmati
+                sajian kopi yang dikombinasikan dengan susu dan gula aren.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="overflow-hidden text-center bg-gray-100 rounded-lg shadow-md"
+          >
+            <img
+              src="https://keluyuran.com/wp-content/uploads/2023/03/Croffle-ala-Nako_.webp"
+              alt="Croffle ala Nako"
+              class="object-cover w-full h-64"
+            />
+            <div class="p-4">
+              <h3 class="mb-2 text-xl font-bold">Croffle ala Nako</h3>
+              <p class="text-gray-700">
+                PCroffle atau croissant waffle yang sempat viral ini bisa kamu
+                nikmati dengan aneka pilihan saus, mulai dari strawberry cheese
+                sauce, matcha sauce, choco crunch sauce, atau tiramisu sauce.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="overflow-hidden text-center bg-gray-100 rounded-lg shadow-md"
+          >
+            <img
+              src="https://keluyuran.com/wp-content/uploads/2023/03/Teh-Dona_.webp"
+              alt="Teh Dona"
+              class="object-cover w-full h-64"
+            />
+            <div class="p-4">
+              <h3 class="mb-2 text-xl font-bold">Teh Dona</h3>
+              <p class="text-gray-700">
+                Bukan pecinta kopi? Tak perlu khawatir, karena Kopi Nako juga
+                memiliki aneka menu non-kopi yang tak kalah menggiurkan. Salah
+                satunya adalah Teh Dona. Menu ini juga cukup unik karena
+                memadukan teh earl grey dengan cita rasa minuman tradisional
+                Indonesia, es doger.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="overflow-hidden text-center bg-gray-100 rounded-lg shadow-md"
+          >
+            <img
+              src="https://keluyuran.com/wp-content/uploads/2023/03/Asam-Kaktus_.webp"
+              alt="Asam Kaktus"
+              class="object-cover w-full h-64"
+            />
+            <div class="p-4">
+              <h3 class="mb-2 text-xl font-bold">Es Kopi Nusantara</h3>
+              <p class="text-gray-700">
+                Menu minuman dengan nama yang cukup unik ini sebenarnya adalah
+                minuman jamu yang terbuat dari campuran asam jawa dan agave,
+                sejenis tanaman berduri yang memiliki banyak manfaat untuk
+                kesehatan.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="overflow-hidden text-center bg-gray-100 rounded-lg shadow-md"
+          >
+            <img
+              src="https://keluyuran.com/wp-content/uploads/2023/03/Es-Krim-Kopi-Nako_.webp"
+              alt="Es Krim Kopi Nako"
+              class="object-cover w-full h-64"
+            />
+            <div class="p-4">
+              <h3 class="mb-2 text-xl font-bold">Es Krim Kopi Nako</h3>
+              <p class="text-gray-700">
+                Di Kopi Nako kamu bisa mencoba menu Es Krim Kopi Nako. Menu ini
+                menyajikan es krim lembut dengan cita rasa kopi yang kuat khas
+                Kopi Nako.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="overflow-hidden text-center bg-gray-100 rounded-lg shadow-md"
+          >
+            <img
+              src="https://keluyuran.com/wp-content/uploads/2023/03/Bakso-Urat-Cuanki_.webp"
+              alt="Bakso Urat Cuanki"
+              class="object-cover w-full h-64"
+            />
+            <div class="p-4">
+              <h3 class="mb-2 text-xl font-bold">Bakso Urat Cuanki</h3>
+              <p class="text-gray-700">
+                Tak sekedar minuman atau makanan ringan saja, Kopi Nako juga
+                memiliki aneka menu makanan berat yang bisa kamu nikmati sembari
+                bersantai di Kopi Nako. Salah satu menu makanan yang bisa kamu
+                coba adalah Bakso Urat Cuanki.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="py-4 text-white bg-gray-900">
+      <div class="container px-4 mx-auto text-center">
+        <p>&copy; 2024 Kopi Nako. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
